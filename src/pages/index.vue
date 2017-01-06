@@ -1,10 +1,9 @@
 
-
 <template>
     <div>
       <!--index_banner-->
       <div class="index_banner">
-        <router-link to="/home">
+        <router-link to="/login">
           <img src="./../assets/banner.png" alt="">
         </router-link>
       </div>
@@ -55,10 +54,11 @@
       <!--index_link-->
       <div class="index_link">
 
-        <router-link to="/signout">
+        <router-link to="/register">
           <img src="./../assets/rank@3x.png" alt="">
         </router-link>
       </div>
+
       <router-view>
       </router-view>
 
@@ -99,36 +99,9 @@
           ]
         }
       },
-      mounted: function() {
-
-         /**
-         * http_get
-         * 截止时间
-         */
-        this.$http.get('http://test.appserver.com/activity/getSingEndTime'
-
-        ).then((response) => {
-              this.$set('gridData', response.data)
-        })
-        .catch((response) => {
-              console.log(response)
-        })
-         /**
-         * http_get
-         * 是否显示寻宝模块
-         */
-        this.$http.get('http://test.appserver.com/activity/treasurebox/display')
-        .then((response) => {
-              this.$set('gridData', response.data)
-        })
-        .catch(function(response) {
-              console.log(response)
-        })
-      }
     }
 </script>
 
-<style scoped>
-    @import './../sass/common.css';
-    @import './../sass/index.css';
+<style lang="scss">
+    @import './../../static/css/index.scss';
 </style>

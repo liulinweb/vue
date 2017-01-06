@@ -1,0 +1,110 @@
+.com-list {
+  position: relative;
+  margin-top: 0.13333rem;
+  margin-bottom: 3.2rem;
+  background-color: #f4f4f4; }
+  .com-list .title {
+    position: relative;
+    height: 1.6rem;
+    background: #fff;
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.6rem;
+    text-align: center;
+    border-bottom: 1px solid #eee; }
+  .com-list .list-li {
+    background-color: #fff;
+    margin-top: 0.53333rem;
+    position: relative;
+    padding: 0 0.4rem 0.8rem;
+    box-sizing: border-box; }
+    .com-list .list-li:first-child {
+      margin-top: 0; }
+    .com-list .list-li .user {
+      position: relative;
+      height: 3.2rem; }
+      .com-list .list-li .user img {
+        display: block;
+        width: 2.66667rem;
+        height: 2.66667rem;
+        margin: 0.26667rem 0 0 0.26667rem;
+        border-radius: 100%;
+        float: left; }
+      .com-list .list-li .user .name {
+        width: 10.66667rem;
+        float: left;
+        margin-left: 0.53333rem; }
+        .com-list .list-li .user .name p {
+          padding-top: 0;
+          line-height: 1.6rem;
+          color: #333;
+          font-size: 0.8rem; }
+        .com-list .list-li .user .name .createtime {
+          font-size: .01rem;
+          color: gray; }
+      .com-list .list-li .user .tag {
+        position: relative;
+        top: 0;
+        width: 100%; }
+        .com-list .list-li .user .tag span {
+          display: inline-block;
+          width: 1.6rem;
+          height: 0.8rem;
+          line-height: 0.8rem;
+          font-size: 0.37333rem;
+          text-align: center;
+          border: 1px solid #f9696c;
+          background-color: #fff;
+          border-radius: 0.13333rem;
+          color: #f9696c;
+          margin-right: 0.26667rem; }
+      .com-list .list-li .user .btn-d {
+        position: absolute;
+        right: 0.4rem;
+        background-color: #6ac577;
+        width: 2.66667rem;
+        height: 1.33333rem;
+        line-height: 1.33333rem;
+        text-align: center;
+        color: #fff;
+        font-size: 0.58667rem;
+        border-radius: 0.21333rem;
+        top: 0.66667rem; }
+    .com-list .list-li .detail {
+      position: relative; }
+      .com-list .list-li .detail p {
+        font-size: 0.69333rem;
+        width: 100%;
+        padding: 0 0.26667rem;
+        box-sizing: border-box;
+        color: #666; }
+      .com-list .list-li .detail img {
+        width: 100%;
+        height: 100%; }
+      .com-list .list-li .detail .img-box {
+        position: relative;
+        width: 100%; }
+        .com-list .list-li .detail .img-box li {
+          float: left;
+          width: 100%;
+          height: 9.93333rem; }
+        .com-list .list-li .detail .img-box.r3 li {
+          margin: 0 0.13333rem 0.26667rem;
+          width: 6.13333rem;
+          height: 6.13333rem; }
+
+.action {
+  color: #f9696c; }
+
+.zan {
+  padding-right: 1.4rem; }
+  .zan span {
+    padding: 0 .1rem; }
+
+.hasZan span:first-child {
+  color: #f9696c; }
+
+.kanguo span {
+  padding: 0 .1rem; }
+
+/*# sourceMappingURL=list.css.map */

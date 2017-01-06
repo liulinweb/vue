@@ -1,0 +1,12 @@
+//font-size
+$font:16;
+//width
+$screen:750;
+//color
+$bColor: #f9696c;
+$fontC:#666;
+
+@function px2rem($n){
+  @return #{$n/($screen*$font/320)}rem
+}
+

@@ -1,0 +1,249 @@
+@import "base/min";
+
+//@mixin arrow($position, $borderColor: #666, $width: 8px) {
+//	content: '';
+//	display: block;
+//	width: $width;
+//	height: $width;
+//	border-top: 1px solid $borderColor;
+//	border-left: 1px solid $borderColor;
+//	transform-origin: 50%;
+//	@if $position == top {
+//		transform: rotate(45deg);
+//	}
+//	@if $position == bottom {
+//		transform: rotate(-135deg);
+//	}
+//	@if $position == left {
+//		transform: rotate(-45deg);
+//	}
+//	@if $position == right {
+//		transform: rotate(135deg);
+//	}
+//}
+//
+//.index {
+//	position: relative;
+//
+//	.center {
+//		display: flex;
+//		margin-top: px2rem(20);
+//		justify-content: center;
+//		align-items: center;
+//		background-color: #fff;
+//		.actived {
+//			p {
+//				color: $bColor !important;
+//			}
+//		}
+//		.list {
+//			flex-grow: 1;
+//			display: flex;
+//			flex-direction: column;
+//			justify-content: center;
+//			padding: px2rem(20) 0;
+//			p {
+//				text-align: center;
+//				color: $fontC;
+//				font-size: px2rem(30);
+//			}
+//			span {
+//				display: block;
+//				margin: 0 auto;
+//				font-size: px2rem(60);
+//				line-height: px2rem(60);
+//			}
+//		}
+//	}
+//	.btn {
+//		width: px2rem(100);
+//		height: px2rem(40);
+//		display: block;
+//		margin: 0 auto;
+//	}
+//}
+//
+//select {
+//	position: relative;
+//	height: 30px;
+//	line-height: 30px;
+//	margin-top: 2px;
+//	padding: 0 10px;
+//	width: 100%;
+//	background-color: white;
+//	border: 1px solid #f1f1f1;
+//	border-radius: 0;
+//	font-size: 16px;
+//
+//}
+//
+//.arrow {
+//	position: absolute;
+//	top: 214px;
+//	right: 20px;
+//	@include arrow(bottom);
+//}
+
+
+.index_banner{
+  &:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: px2rem(40);
+    background-color: #F2F2F2;
+  }
+  img{
+    width:100%;
+    display: block;
+  }
+}
+.index_box{
+  width: 90%;
+  list-style-type: none;
+  padding: 0;
+  margin: 5%;
+  li{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    img{
+      display: block;
+      width: 100%;
+    }
+    .index_pic{
+      width: 98%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1%;
+      h3{
+        display: block;
+        width: 75%;
+        padding-left: 5%;
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: left;
+      }
+      .index_picDescription{
+        font-weight: normal;
+        font-size: 14px;
+        padding-top: 0;
+      }
+      img{
+        display: inline-block;
+        width: 15%;
+        position: absolute;
+        right: 2%;
+        bottom: 15%;
+      }
+    }
+  }
+  .index_fg1{
+    width: 100%;
+    text-align: center;
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    margin: 5% 0;
+    margin-top: 0;
+    img{
+      display:inline-block;
+      width: px2rem(40);
+    }
+  }
+}
+.index_fg2{
+  height: px2rem(60);
+  width: 100%;
+  margin-top: 5%;
+  background-color: #F2F2F3;
+}
+.index_fg3{
+  width: 100%;
+  text-align: center;
+  font-family: 'Microsoft YaHei';
+  font-size: 16px;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  margin: 5% 0;
+  img{
+    display:inline-block;
+    width: px2rem(40);
+  }
+}
+.index_container{
+  width: 90%;
+  list-style-type: none;
+  padding: 0;
+  margin: 5%;
+  li{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    img{
+      display: block;
+      width: 100%;
+    }
+    .index_pic{
+      width: 98%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1%;
+      h3{
+        display: block;
+        width: 75%;
+        padding-left: 5%;
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: left;
+      }
+      .index_picDescription{
+        font-weight: normal;
+        font-size: 14px;
+        padding-top: 0;
+      }
+      img{
+        display: inline-block;
+        width: 15%;
+        position: absolute;
+        right: 2%;
+        bottom: 15%;
+      }
+    }
+  }
+}
+.index_link{
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  right: px2rem(50);
+  bottom: px2rem(40);
+  font-size: 20px;
+  img{
+    float: right;
+    width: 15%;
+  }
+}

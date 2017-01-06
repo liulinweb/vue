@@ -1,0 +1,34 @@
+.com-homeuserinfo .user-icon {
+  height: 4rem;
+  line-height: 4rem; }
+  .com-homeuserinfo .user-icon img {
+    position: absolute;
+    right: 1.6rem;
+    width: 2.66667rem;
+    height: 2.66667rem;
+    border-radius: 100%;
+    top: 0.66667rem; }
+.com-homeuserinfo p {
+  position: absolute;
+  right: 1.6rem;
+  color: #999;
+  font-size: 0.85333rem;
+  top: 0;
+  line-height: 2.4rem; }
+
+.forbid {
+  font-size: .5rem;
+  color: gray; }
+  .forbid .forbidAction {
+    float: right; }
+    .forbid .forbidAction > span {
+      color: red;
+      font-size: .8rem;
+      padding: 0px 5px; }
+      .forbid .forbidAction > span > span {
+        font-size: .8rem; }
+
+.sex {
+  float: right; }
+
+/*# sourceMappingURL=admin.css.map */

@@ -1,0 +1,37 @@
+.b-reply {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  bottom: 0rem;
+  height: 2.66667rem;
+  line-height: 2.66667rem;
+  padding: 0.4rem;
+  box-sizing: border-box;
+  border-top: 1px solid #ddd;
+  z-index: 99;
+  -webkit-transition: all 1s; }
+  .b-reply span {
+    display: block;
+    position: absolute;
+    background-color: #6ac577;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.21333rem;
+    width: 3.2rem;
+    height: 1.86667rem;
+    font-size: 0.69333rem;
+    line-height: 1.86667rem;
+    right: 0.4rem;
+    top: 0.4rem; }
+  .b-reply input {
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+    height: 1.86667rem;
+    line-height: 1.86667rem;
+    width: 13.33333rem;
+    border: 1px solid #eee;
+    padding-left: 0.26667rem;
+    box-sizing: border-box; }
+
+/*# sourceMappingURL=reply.css.map */

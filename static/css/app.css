@@ -1,0 +1,121 @@
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .1s ease; }
+
+.fade-enter, .fade-leave-active {
+  opacity: 0; }
+
+.child-view {
+  position: absolute;
+  width: 100%;
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1); }
+
+.slide-left-enter, .slide-right-leave-active {
+  opacity: 0;
+  -webkit-transform: translate(30px, 0);
+  transform: translate(30px, 0); }
+
+.slide-left-leave-active, .slide-right-enter {
+  opacity: 0;
+  -webkit-transform: translate(-30px, 0);
+  transform: translate(-30px, 0); }
+
+.com-app {
+  position: relative; }
+
+.center {
+  display: flex;
+  margin-top: 0.53333rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; }
+  .center .actived p {
+    color: #f9696c !important; }
+  .center .list {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.53333rem 0; }
+    .center .list p {
+      text-align: center;
+      color: #666;
+      font-size: 0.8rem; }
+    .center .list span {
+      display: block;
+      margin: 0 auto;
+      font-size: 1.6rem;
+      line-height: 1.6rem; }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  min-width: 320px;
+  height: 100%;
+  background-color: #f4f4f4; }
+  html .iconfont, body .iconfont {
+    font-size: 0.96rem; }
+
+.btn-s {
+  display: block;
+  background-color: #6ac577;
+  width: 2.66667rem;
+  height: 1.33333rem;
+  line-height: 1.33333rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.58667rem;
+  border-radius: 0.21333rem; }
+
+.btn-b {
+  display: block;
+  background-color: #f9696c;
+  width: 90%;
+  height: 2.13333rem;
+  line-height: 2.13333rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.85333rem;
+  border-radius: 0.21333rem;
+  margin: 0 auto; }
+
+time {
+  color: #999;
+  font-size: 0.53333rem;
+  line-height: 0.53333rem; }
+
+.user-link {
+  position: relative;
+  margin-top: 0.53333rem;
+  background-color: #fff; }
+  .user-link li {
+    position: relative;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    padding: 0 0.53333rem;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box; }
+    .user-link li a {
+      position: relative;
+      display: block; }
+  .user-link .Hui-iconfont-yiguanzhu {
+    color: #5197f9; }
+  .user-link .Hui-iconfont-feedback1 {
+    color: #f9616d; }
+  .user-link .Hui-iconfont-star {
+    color: #ffd256; }
+  .user-link .Hui-iconfont-comment {
+    color: #90883c; }
+  .user-link .txt {
+    color: #333;
+    font-size: 0.85333rem; }
+
+.icon-right {
+  position: absolute;
+  right: 0.53333rem;
+  top: 50%;
+  margin-top: -0.4rem;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  color: #999; }
+
+/*# sourceMappingURL=app.css.map */
